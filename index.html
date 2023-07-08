@@ -11,32 +11,83 @@
   <div class="container">
     <div class="question-box">
       <h2 class="question1">Which language runs in a web browser?</h2>
-      <!-- <h2 class="question2"></h2>
-      <h2 class="question3"></h2>
-      <h2 class="question4"></h2> -->
+      <h2 class="question2">What does CSS stand for?</h2>
+      <h2 class="question3">What does HTML stand for?</h2>
+      <h2 class="question4">What year was JavaScript launched?</h2>
     </div>
     <div class="answer-box">
       <div class="answer1">
         <div class="option-box">
-          <input type="radio" id="java" value="java"><label for="java">Java</label>
+          <input type="radio" id="option1" value="java"
+          name="option"><label for="option1">Java</label>
         </div>
         <div class="option-box">
-          <input type="radio" id="c" value="c"><label for="c">C</label>
+          <input type="radio" id="option2" 
+          value="c"
+          name="option"><label for="option2"
+          >C</label>
         </div>
         <div class="option-box">        
-          <input type="radio" id="python" value="python"><label for="python">python</label>
+          <input type="radio" id="option3" value="python"
+          name="option">
+          <label for="option3">python</label>
         </div>
         <div class="option-box">
-          <input type="radio" id="javascript" value="javascript"><label for="javascript">javascript</label>
+          <input type="radio" id="option4" value="javascript"
+          name="option">
+          <label for="option4">javascript</label>
+        </div>
+      </div>
+      <div class="answer2">
+        <div class="option-box">
+          <input type="radio" name="option" id="CentralStyleSheets" value="Central Style Sheets"><label for="CentralStyleSheets">Central Style Sheets</label>
+        </div>
+        <div class="option-box">
+          <input type="radio" name="option" id="cascadingStyleSheets" value="Cascading Style Sheets"><label for="cascadingStyleSheets"> Cascading Style Sheets</label>
+        </div>
+        <div class="option-box">        
+          <input type="radio" name="option" id="cascadingSimpleSheets" value="Cascading Simple Sheets"><label for="cascadingSimpleSheets">Cascading Simple Sheets</label>
+        </div>
+        <div class="option-box">
+          <input type="radio" name="option" id="CarsSUVsSailboats" value="Cars SUVs Sailboats"><label for="CarsSUVsSailboats">Cars SUVs Sailboats</label>
+        </div>
+      </div>
+      <div class="answer3">
+        <div class="option-box">
+          <input type="radio" name="option" id="HypertextMarkupLanguage" value="Hypertext Markup Language"><label for="HypertextMarkupLanguage">Hypertext Markup Language</label>
+        </div>
+        <div class="option-box">
+          <input type="radio" name="option" id="HypertextMarkdownLanguage" value="Hypertext Markdown Language"><label for="HypertextMarkdownLanguage">Hypertext Markdown Language</label>
+        </div>
+        <div class="option-box">        
+          <input type="radio" name="option" id="HyperloopMachineLanguage" value="Hyper loop Machine Language"><label for="HyperloopMachineLanguage">Hyperloop Machine Language</label>
+        </div>
+        <div class="option-box">
+          <input type="radio" name="option" id="HTML" value="Helicopters Terminals Motorboats Lamborginis"><label for="HTML">Helicopters Terminals Motorboats Lamborginis</label>
+        </div>
+      </div>
+      <div class="answer4">
+        <div class="option-box">
+          <input type="radio" name="option" id="1995" value="1995"><label for="1995">1995</label>
+        </div>
+        <div class="option-box">
+          <input type="radio" name="option" id="1996" value="1996"><label for="1996">1996</label>
+        </div>
+        <div class="option-box">        
+          <input type="radio" name="option" id="1994" value="1994"><label for="1994">1994</label>
+        </div>
+        <div class="option-box">
+          <input type="radio" name="option" id="none" value="none"><label for="none">none of the above</label>
         </div>
       </div>
     </div>
     <div class="result-box">
-      <h1 class="results">You answered <span class="mark">1</span>/4 questions correctly</h1>
+      <h2 class="results">You answered <span class="mark">1</span>/4 questions correctly</h1>
     </div>
-    <div class="button">
-      <input type="button" value="submit">
-    </div>
+  </div>
+  <div class="button">
+    <input type="button" value="submit" class="btn-submit">
+    <input type="button" value="Reload" class="btn-reload">
   </div>
   <script src="./script.js"></script>
 </body>
